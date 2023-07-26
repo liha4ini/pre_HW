@@ -50,7 +50,7 @@ export const HW2 = () => {
     // const filteredUsers = 'НУЖНО ПРОФИЛЬТРОВАТЬ ДРУЗЕЙ. ОСТАВЛЯЕМ ТОЛЬКО ТЕХ, КОТОРЫЕ ЖИВУТ В ГОРОДЕ LOS ANGELES';
     // const filteredUsers = users.myFriends.filter(el => el.address.city === 'Los Angeles');
     const filteredUsers = currentUsers.myFriends.filter(el => el.address.city === 'Los Angeles');
-    console.log(filteredUsers)
+
     setCurrentUsers({ myFriends: filteredUsers });
   };
 
